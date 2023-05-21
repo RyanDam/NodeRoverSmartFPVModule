@@ -1,10 +1,5 @@
 #include "main.h"
 
-#include "tensorflow/lite/micro/micro_interpreter.h"
-// #include "tensorflow/lite/micro/micro_log.h"
-// #include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
-// #include "tensorflow/lite/schema/schema_generated.h"
-
 #ifdef ENABLE_WEBSERVER_FACE_DET
 
 #define FACE_COLOR_WHITE 0x00FFFFFF
